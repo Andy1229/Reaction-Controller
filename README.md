@@ -30,10 +30,10 @@ The both components must conform to the interface Controller. This is the main b
 You are free to write these components in any way you choose, so long as they implement the required interfaces.\
 You must write SimpleReactionController.java that functions like the simple reaction machine described above and EnhancedReactionController.java that behaves like the enhanced multi-game reaction machine.
 * A Display is a GUI component which you need to write to test your reaction machine.\
-It must conform to the Gui interface. The GUI must have a button labelled “Coin Inserted” and a button labelled “Go/Stop”.\ There must be a display region to show the messages of the machine. Times must be displayed with two decimal places.\
+It must conform to the Gui interface. The GUI must have a button labelled “Coin Inserted” and a button labelled “Go/Stop”.
+There must be a display region to show the messages of the machine. Times must be displayed with two decimal places.\
 For example, a value of 1.5 seconds must be shown as 1.50. Do not go to too much effort to make your GUI “beautiful”.\
 We are more concerned here with correct operation of your controllers rather than with your artistic ability! You must write Display.java that implements the necessary GUI functions.\
-Important. To ensure that we can automatically test your program, you must comply with the following constraints.
 * Obviously, your program needs a source of timing information. You must obtain this information by implementing the tick method in your controller. The ReactionMachine class guarantees to call this method every 10 milliseconds. Do not use a Java timer, or your program cannot be tested and will fail all the tests.
 * Your program also needs a source of random numbers. You must obtain your random numbers by calling the getRandom() method in the interface Random. Do not use the Java Random class, or your program will fail all the tests.
 
