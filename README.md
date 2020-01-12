@@ -44,4 +44,8 @@ You can run the driver program by typing:
 java ReactionMachine c
 ```
 where c is the name of the controller you want to test.\
-For example, java Reactionmachine SimpleReactionController will run the SimpleReactionController program. 
+For example, 
+```
+java Reactionmachine SimpleReactionController
+```
+it will run the SimpleReactionController program. 
